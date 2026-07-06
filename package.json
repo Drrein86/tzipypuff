@@ -6,12 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "mock:images": "node scripts/generate-mock-images.mjs && node scripts/download-mock-images.mjs",
+    "mock:photos": "node scripts/download-mock-images.mjs",
+    "mock:export": "npx tsx scripts/export-mock-json.ts",
+    "mock:seed": "npm run mock:images && npm run mock:export",
+    "db:migrate": "npx tsx scripts/db-migrate.ts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^1.23.0",
     "next": "16.2.10",
+    "next-auth": "^5.0.0-beta.31",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "stripe": "^22.3.0",
+    "zustand": "^5.0.14"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

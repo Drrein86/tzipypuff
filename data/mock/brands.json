@@ -1,0 +1,154 @@
+[
+  {
+    "id": "al-fakher",
+    "slug": "al-fakher",
+    "name": "Al Fakher",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "starbuzz",
+    "slug": "starbuzz",
+    "name": "Starbuzz",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "adalya",
+    "slug": "adalya",
+    "name": "Adalya",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "tangiers",
+    "slug": "tangiers",
+    "name": "Tangiers",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "fumari",
+    "slug": "fumari",
+    "name": "Fumari",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ivg",
+    "slug": "ivg",
+    "name": "IVG",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "nasty-juice",
+    "slug": "nasty-juice",
+    "name": "Nasty Juice",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "dinner-lady",
+    "slug": "dinner-lady",
+    "name": "Dinner Lady",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "vaporesso",
+    "slug": "vaporesso",
+    "name": "Vaporesso",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "geekvape",
+    "slug": "geekvape",
+    "name": "GeekVape",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "smok",
+    "slug": "smok",
+    "name": "SMOK",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "elf-bar",
+    "slug": "elf-bar",
+    "name": "Elf Bar",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "raw",
+    "slug": "raw",
+    "name": "RAW",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "elements",
+    "slug": "elements",
+    "name": "Elements",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "ocb",
+    "slug": "ocb",
+    "name": "OCB",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "coco",
+    "slug": "coco",
+    "name": "Coco",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "three-kings",
+    "slug": "three-kings",
+    "name": "Three Kings",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "premium",
+    "slug": "premium",
+    "name": "Premium",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "kaloud",
+    "slug": "kaloud",
+    "name": "Kaloud",
+    "logoUrl": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

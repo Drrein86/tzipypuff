@@ -1,0 +1,92 @@
+[
+  {
+    "id": "tobacco",
+    "slug": "tobacco",
+    "label": "טבק",
+    "color": "blue",
+    "sortOrder": 1,
+    "imageUrl": "/products/mock/tobacco/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "liquids",
+    "slug": "liquids",
+    "label": "נוזלים",
+    "color": "blue",
+    "sortOrder": 2,
+    "imageUrl": "/products/mock/liquids/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "vapes",
+    "slug": "vapes",
+    "label": "סיגריות אלקטרוניות",
+    "color": "pink",
+    "sortOrder": 3,
+    "imageUrl": "/products/mock/vapes/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "accessories",
+    "slug": "accessories",
+    "label": "אביזרים",
+    "color": "pink",
+    "sortOrder": 4,
+    "imageUrl": "/products/mock/accessories/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "coals",
+    "slug": "coals",
+    "label": "פחמים",
+    "color": "blue",
+    "sortOrder": 5,
+    "imageUrl": "/products/mock/coals/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "filters",
+    "slug": "filters",
+    "label": "פילטרים",
+    "color": "pink",
+    "sortOrder": 6,
+    "imageUrl": "/products/mock/filters/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "rolling",
+    "slug": "rolling",
+    "label": "גלגול",
+    "color": "blue",
+    "sortOrder": 7,
+    "imageUrl": "/products/mock/rolling/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "pipes",
+    "slug": "pipes",
+    "label": "מקטרות",
+    "color": "pink",
+    "sortOrder": 8,
+    "imageUrl": "/products/mock/pipes/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "bongs",
+    "slug": "bongs",
+    "label": "באנגים",
+    "color": "blue",
+    "sortOrder": 9,
+    "imageUrl": "/products/mock/bongs/_category.svg",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

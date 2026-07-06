@@ -1,0 +1,1286 @@
+{
+  "version": 3,
+  "brands": [
+    {
+      "id": "al-fakher",
+      "slug": "al-fakher",
+      "name": "Al Fakher",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "starbuzz",
+      "slug": "starbuzz",
+      "name": "Starbuzz",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "adalya",
+      "slug": "adalya",
+      "name": "Adalya",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "tangiers",
+      "slug": "tangiers",
+      "name": "Tangiers",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "fumari",
+      "slug": "fumari",
+      "name": "Fumari",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "ivg",
+      "slug": "ivg",
+      "name": "IVG",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "nasty-juice",
+      "slug": "nasty-juice",
+      "name": "Nasty Juice",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "dinner-lady",
+      "slug": "dinner-lady",
+      "name": "Dinner Lady",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "vaporesso",
+      "slug": "vaporesso",
+      "name": "Vaporesso",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "geekvape",
+      "slug": "geekvape",
+      "name": "GeekVape",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "smok",
+      "slug": "smok",
+      "name": "SMOK",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "elf-bar",
+      "slug": "elf-bar",
+      "name": "Elf Bar",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "raw",
+      "slug": "raw",
+      "name": "RAW",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "elements",
+      "slug": "elements",
+      "name": "Elements",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "ocb",
+      "slug": "ocb",
+      "name": "OCB",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "coco",
+      "slug": "coco",
+      "name": "Coco",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "three-kings",
+      "slug": "three-kings",
+      "name": "Three Kings",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "premium",
+      "slug": "premium",
+      "name": "Premium",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "kaloud",
+      "slug": "kaloud",
+      "name": "Kaloud",
+      "logoUrl": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "tobacco",
+      "slug": "tobacco",
+      "label": "טבק",
+      "color": "blue",
+      "sortOrder": 1,
+      "imageUrl": "/products/mock/tobacco/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "liquids",
+      "slug": "liquids",
+      "label": "נוזלים",
+      "color": "blue",
+      "sortOrder": 2,
+      "imageUrl": "/products/mock/liquids/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "vapes",
+      "slug": "vapes",
+      "label": "סיגריות אלקטרוניות",
+      "color": "pink",
+      "sortOrder": 3,
+      "imageUrl": "/products/mock/vapes/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "accessories",
+      "slug": "accessories",
+      "label": "אביזרים",
+      "color": "pink",
+      "sortOrder": 4,
+      "imageUrl": "/products/mock/accessories/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "coals",
+      "slug": "coals",
+      "label": "פחמים",
+      "color": "blue",
+      "sortOrder": 5,
+      "imageUrl": "/products/mock/coals/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "filters",
+      "slug": "filters",
+      "label": "פילטרים",
+      "color": "pink",
+      "sortOrder": 6,
+      "imageUrl": "/products/mock/filters/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "rolling",
+      "slug": "rolling",
+      "label": "גלגול",
+      "color": "blue",
+      "sortOrder": 7,
+      "imageUrl": "/products/mock/rolling/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pipes",
+      "slug": "pipes",
+      "label": "מקטרות",
+      "color": "pink",
+      "sortOrder": 8,
+      "imageUrl": "/products/mock/pipes/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "bongs",
+      "slug": "bongs",
+      "label": "באנגים",
+      "color": "blue",
+      "sortOrder": 9,
+      "imageUrl": "/products/mock/bongs/_category.svg",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p-tob-01",
+      "slug": "al-fakher-two-apple",
+      "categoryId": "tobacco",
+      "brandId": "al-fakher",
+      "name": "Al Fakher Two Apple",
+      "nameHe": "Al Fakher — Two Apple",
+      "descriptionHe": "טבק נרגילה Al Fakher Two Apple — 250g, אריזה מקורית.",
+      "price": 85,
+      "salePrice": null,
+      "imageUrl": "/products/mock/tobacco/al-fakher-two-apple.jpg",
+      "images": [
+        "/products/mock/tobacco/al-fakher-two-apple.jpg"
+      ],
+      "flavor": "תפוח",
+      "strength": "בינוני",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": true,
+      "specs": {
+        "משקל": "250g",
+        "מקור": "UAE"
+      },
+      "gradient": "from-neutral-800 via-neutral-900 to-black",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-tob-02",
+      "slug": "starbuzz-blue-mist",
+      "categoryId": "tobacco",
+      "brandId": "starbuzz",
+      "name": "Starbuzz Blue Mist",
+      "nameHe": "Starbuzz — Blue Mist",
+      "descriptionHe": "Starbuzz Blue Mist — bestseller עולמי.",
+      "price": 95,
+      "salePrice": 79,
+      "imageUrl": "/products/mock/tobacco/starbuzz-blue-mist.jpg",
+      "images": [
+        "/products/mock/tobacco/starbuzz-blue-mist.jpg"
+      ],
+      "flavor": "פירות יער",
+      "strength": "קל",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": true,
+      "featured": true,
+      "specs": {
+        "משקל": "250g",
+        "מקור": "USA"
+      },
+      "gradient": "from-slate-500 via-slate-700 to-slate-900",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-tob-03",
+      "slug": "adalya-love-66",
+      "categoryId": "tobacco",
+      "brandId": "adalya",
+      "name": "Adalya Love 66",
+      "nameHe": "Adalya — Love 66",
+      "descriptionHe": "Adalya Love 66 — אבטיח וענבים.",
+      "price": 75,
+      "salePrice": null,
+      "imageUrl": "/products/mock/tobacco/adalya-love-66.jpg",
+      "images": [
+        "/products/mock/tobacco/adalya-love-66.jpg"
+      ],
+      "flavor": "אבטיח",
+      "strength": "בינוני",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": true,
+      "specs": {
+        "משקל": "250g",
+        "מקור": "Turkey"
+      },
+      "gradient": "from-fuchsia-800 via-purple-900 to-indigo-950",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-tob-04",
+      "slug": "tangiers-cane-mint",
+      "categoryId": "tobacco",
+      "brandId": "tangiers",
+      "name": "Tangiers Cane Mint",
+      "nameHe": "Tangiers — Cane Mint",
+      "descriptionHe": "Tangiers Cane Mint — טבק Dark Leaf פרימיום.",
+      "price": 120,
+      "salePrice": null,
+      "imageUrl": "/products/mock/tobacco/tangiers-cane-mint.jpg",
+      "images": [
+        "/products/mock/tobacco/tangiers-cane-mint.jpg"
+      ],
+      "flavor": "מנטה",
+      "strength": "חזק",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "משקל": "250g",
+        "סוג": "Dark Leaf"
+      },
+      "gradient": "from-green-900 via-emerald-950 to-black",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-liq-01",
+      "slug": "ivg-rainbow-blast",
+      "categoryId": "liquids",
+      "brandId": "ivg",
+      "name": "IVG Rainbow Blast",
+      "nameHe": "IVG — Rainbow Blast",
+      "descriptionHe": "נוזל IVG Rainbow Blast 50ml, 6mg.",
+      "price": 60,
+      "salePrice": null,
+      "imageUrl": "/products/mock/liquids/ivg-rainbow-blast.jpg",
+      "images": [
+        "/products/mock/liquids/ivg-rainbow-blast.jpg"
+      ],
+      "flavor": "פירות",
+      "strength": "בינוני",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": true,
+      "specs": {
+        "נפח": "50ml",
+        "ניקוטין": "6mg"
+      },
+      "gradient": "from-cyan-700 via-blue-800 to-indigo-950",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-liq-02",
+      "slug": "ivg-blue-raspberry",
+      "categoryId": "liquids",
+      "brandId": "ivg",
+      "name": "IVG Blue Raspberry",
+      "nameHe": "IVG — Blue Raspberry",
+      "descriptionHe": "IVG Blue Raspberry 50ml.",
+      "price": 60,
+      "salePrice": 49,
+      "imageUrl": "/products/mock/liquids/ivg-blue-raspberry.jpg",
+      "images": [
+        "/products/mock/liquids/ivg-blue-raspberry.jpg"
+      ],
+      "flavor": "פטל",
+      "strength": "קל",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": true,
+      "featured": false,
+      "specs": {
+        "נפח": "50ml",
+        "ניקוטין": "3mg"
+      },
+      "gradient": "from-blue-800 via-indigo-900 to-violet-950",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-liq-03",
+      "slug": "nasty-juice-cushman",
+      "categoryId": "liquids",
+      "brandId": "nasty-juice",
+      "name": "Nasty Juice Cushman",
+      "nameHe": "Nasty Juice — Cushman",
+      "descriptionHe": "Nasty Juice Cushman Mango — 60ml.",
+      "price": 70,
+      "salePrice": null,
+      "imageUrl": "/products/mock/liquids/nasty-juice-cushman.jpg",
+      "images": [
+        "/products/mock/liquids/nasty-juice-cushman.jpg"
+      ],
+      "flavor": "מנגו",
+      "strength": "בינוני",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "נפח": "60ml",
+        "ניקוטין": "3mg"
+      },
+      "gradient": "from-yellow-700 via-orange-900 to-amber-950",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-liq-04",
+      "slug": "dinner-lady-lemon-tart",
+      "categoryId": "liquids",
+      "brandId": "dinner-lady",
+      "name": "Dinner Lady Lemon Tart",
+      "nameHe": "Dinner Lady — Lemon Tart",
+      "descriptionHe": "Dinner Lady Lemon Tart — 50ml Salt.",
+      "price": 65,
+      "salePrice": null,
+      "imageUrl": "/products/mock/liquids/dinner-lady-lemon-tart.jpg",
+      "images": [
+        "/products/mock/liquids/dinner-lady-lemon-tart.jpg"
+      ],
+      "flavor": "לימון",
+      "strength": "קל",
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "נפח": "50ml",
+        "ניקוטין": "20mg Salt"
+      },
+      "gradient": "from-amber-600 via-yellow-900 to-orange-950",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-vap-01",
+      "slug": "vaporesso-xros-3",
+      "categoryId": "vapes",
+      "brandId": "vaporesso",
+      "name": "Vaporesso XROS 3",
+      "nameHe": "Vaporesso XROS 3",
+      "descriptionHe": "Pod System פרימיום.",
+      "price": 189,
+      "salePrice": null,
+      "imageUrl": "/products/mock/vapes/vaporesso-xros-3.jpg",
+      "images": [
+        "/products/mock/vapes/vaporesso-xros-3.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": true,
+      "specs": {
+        "סוללה": "1000mAh",
+        "Pod": "2ml"
+      },
+      "gradient": "from-zinc-600 via-zinc-800 to-zinc-950",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-vap-02",
+      "slug": "geekvape-aegis",
+      "categoryId": "vapes",
+      "brandId": "geekvape",
+      "name": "GeekVape Aegis Boost",
+      "nameHe": "GeekVape Aegis Boost",
+      "descriptionHe": "עמיד למים IP67.",
+      "price": 249,
+      "salePrice": null,
+      "imageUrl": "/products/mock/vapes/geekvape-aegis.jpg",
+      "images": [
+        "/products/mock/vapes/geekvape-aegis.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "סוללה": "1500mAh"
+      },
+      "gradient": "from-emerald-900 via-teal-950 to-black",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-vap-03",
+      "slug": "smok-nord-5",
+      "categoryId": "vapes",
+      "brandId": "smok",
+      "name": "SMOK Nord 5",
+      "nameHe": "SMOK Nord 5",
+      "descriptionHe": "SMOK Nord 5 — 80W.",
+      "price": 159,
+      "salePrice": 129,
+      "imageUrl": "/products/mock/vapes/smok-nord-5.jpg",
+      "images": [
+        "/products/mock/vapes/smok-nord-5.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": true,
+      "featured": false,
+      "specs": {
+        "סוללה": "2000mAh"
+      },
+      "gradient": "from-red-900 via-rose-950 to-black",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-vap-04",
+      "slug": "elf-bar-bc5000",
+      "categoryId": "vapes",
+      "brandId": "elf-bar",
+      "name": "Elf Bar BC5000",
+      "nameHe": "Elf Bar BC5000",
+      "descriptionHe": "Disposable 5000 puffs.",
+      "price": 89,
+      "salePrice": 69,
+      "imageUrl": "/products/mock/vapes/elf-bar-bc5000.jpg",
+      "images": [
+        "/products/mock/vapes/elf-bar-bc5000.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": true,
+      "featured": true,
+      "specs": {
+        "Puffs": "5000",
+        "ניקוטין": "5%"
+      },
+      "gradient": "from-pink-700 via-fuchsia-900 to-purple-950",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-rol-01",
+      "slug": "raw-classic-papers",
+      "categoryId": "rolling",
+      "brandId": "raw",
+      "name": "RAW Classic Papers",
+      "nameHe": "RAW Classic — ניירות",
+      "descriptionHe": "ניירות RAW Classic King Size.",
+      "price": 55,
+      "salePrice": null,
+      "imageUrl": "/products/mock/rolling/raw-classic-papers.jpg",
+      "images": [
+        "/products/mock/rolling/raw-classic-papers.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": true,
+      "specs": {
+        "כמות": "50 leaves"
+      },
+      "gradient": "from-amber-800 via-orange-900 to-stone-950",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-rol-02",
+      "slug": "raw-cones",
+      "categoryId": "rolling",
+      "brandId": "raw",
+      "name": "RAW Pre-Rolled Cones",
+      "nameHe": "RAW — קונוסים",
+      "descriptionHe": "6 קונוסים מוכנים.",
+      "price": 45,
+      "salePrice": null,
+      "imageUrl": "/products/mock/rolling/raw-cones.jpg",
+      "images": [
+        "/products/mock/rolling/raw-cones.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "6"
+      },
+      "gradient": "from-amber-900 to-orange-950",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-rol-03",
+      "slug": "elements-king-size",
+      "categoryId": "rolling",
+      "brandId": "elements",
+      "name": "Elements King Size",
+      "nameHe": "Elements — King Size",
+      "descriptionHe": "ניירות Elements Ultra Thin.",
+      "price": 48,
+      "salePrice": null,
+      "imageUrl": "/products/mock/rolling/elements-king-size.jpg",
+      "images": [
+        "/products/mock/rolling/elements-king-size.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "32 leaves"
+      },
+      "gradient": "from-red-900 via-orange-950 to-amber-950",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-rol-04",
+      "slug": "ocb-premium-black",
+      "categoryId": "rolling",
+      "brandId": "ocb",
+      "name": "OCB Premium Black",
+      "nameHe": "OCB Premium Black",
+      "descriptionHe": "OCB Premium Black King Size.",
+      "price": 42,
+      "salePrice": null,
+      "imageUrl": "/products/mock/rolling/ocb-premium-black.jpg",
+      "images": [
+        "/products/mock/rolling/ocb-premium-black.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "32 leaves"
+      },
+      "gradient": "from-zinc-700 via-zinc-900 to-black",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-coa-01",
+      "slug": "coconut-coals-1kg",
+      "categoryId": "coals",
+      "brandId": "coco",
+      "name": "Coconut Coals 1kg",
+      "nameHe": "פחמי קוקוס 1kg",
+      "descriptionHe": "72 cubes, בעירה ארוכה.",
+      "price": 35,
+      "salePrice": null,
+      "imageUrl": "/products/mock/coals/coconut-coals-1kg.jpg",
+      "images": [
+        "/products/mock/coals/coconut-coals-1kg.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "משקל": "1kg"
+      },
+      "gradient": "from-stone-700 via-stone-900 to-black",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-coa-02",
+      "slug": "quick-light-coals",
+      "categoryId": "coals",
+      "brandId": "coco",
+      "name": "Quick Light Coals",
+      "nameHe": "פחמים מהירים",
+      "descriptionHe": "10 tablets, הצתה מהירה.",
+      "price": 20,
+      "salePrice": null,
+      "imageUrl": "/products/mock/coals/quick-light-coals.jpg",
+      "images": [
+        "/products/mock/coals/quick-light-coals.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "10"
+      },
+      "gradient": "from-gray-600 to-gray-900",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-coa-03",
+      "slug": "coco-cube-premium",
+      "categoryId": "coals",
+      "brandId": "coco",
+      "name": "Coco Cube Premium",
+      "nameHe": "Coco Cube Premium 500g",
+      "descriptionHe": "36 cubes קוקוס natural.",
+      "price": 28,
+      "salePrice": null,
+      "imageUrl": "/products/mock/coals/coco-cube-premium.jpg",
+      "images": [
+        "/products/mock/coals/coco-cube-premium.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "משקל": "500g"
+      },
+      "gradient": "from-stone-600 via-stone-800 to-stone-950",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-coa-04",
+      "slug": "three-kings-charcoal",
+      "categoryId": "coals",
+      "brandId": "three-kings",
+      "name": "Three Kings Charcoal",
+      "nameHe": "Three Kings — פחמים",
+      "descriptionHe": "33mm quick-light disks.",
+      "price": 22,
+      "salePrice": null,
+      "imageUrl": "/products/mock/coals/three-kings-charcoal.jpg",
+      "images": [
+        "/products/mock/coals/three-kings-charcoal.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "10"
+      },
+      "gradient": "from-neutral-700 to-neutral-950",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-acc-01",
+      "slug": "silicone-bowl",
+      "categoryId": "accessories",
+      "brandId": "premium",
+      "name": "Silicone Hookah Bowl",
+      "nameHe": "קערת Silicone",
+      "descriptionHe": "קערה עמידה בחום.",
+      "price": 65,
+      "salePrice": null,
+      "imageUrl": "/products/mock/accessories/silicone-bowl.jpg",
+      "images": [
+        "/products/mock/accessories/silicone-bowl.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "קוטר": "7cm"
+      },
+      "gradient": "from-gray-700 via-gray-900 to-black",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-acc-02",
+      "slug": "kaloud-lotus",
+      "categoryId": "accessories",
+      "brandId": "kaloud",
+      "name": "Kaloud Lotus",
+      "nameHe": "Kaloud Lotus",
+      "descriptionHe": "מערכת חימום Kaloud.",
+      "price": 149,
+      "salePrice": null,
+      "imageUrl": "/products/mock/accessories/kaloud-lotus.jpg",
+      "images": [
+        "/products/mock/accessories/kaloud-lotus.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "חומר": "Aluminum"
+      },
+      "gradient": "from-zinc-700 to-zinc-950",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-acc-03",
+      "slug": "metal-grinder",
+      "categoryId": "accessories",
+      "brandId": "premium",
+      "name": "Metal Grinder 4pc",
+      "nameHe": "גריינדר מתכת",
+      "descriptionHe": "4 חלקים, 55mm.",
+      "price": 75,
+      "salePrice": null,
+      "imageUrl": "/products/mock/accessories/metal-grinder.jpg",
+      "images": [
+        "/products/mock/accessories/metal-grinder.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "קוטר": "55mm"
+      },
+      "gradient": "from-neutral-600 to-neutral-900",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-acc-04",
+      "slug": "premium-hose",
+      "categoryId": "accessories",
+      "brandId": "premium",
+      "name": "Premium Hookah Hose",
+      "nameHe": "צינור פרימיום",
+      "descriptionHe": "צינור Silicone washable.",
+      "price": 85,
+      "salePrice": null,
+      "imageUrl": "/products/mock/accessories/premium-hose.jpg",
+      "images": [
+        "/products/mock/accessories/premium-hose.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "אורך": "180cm"
+      },
+      "gradient": "from-slate-700 to-slate-950",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-fil-01",
+      "slug": "glass-filter-tips",
+      "categoryId": "filters",
+      "brandId": "premium",
+      "name": "Glass Filter Tips",
+      "nameHe": "פילטרים מזכוכית",
+      "descriptionHe": "5 פילטרים reusable.",
+      "price": 25,
+      "salePrice": null,
+      "imageUrl": "/products/mock/filters/glass-filter-tips.jpg",
+      "images": [
+        "/products/mock/filters/glass-filter-tips.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "5"
+      },
+      "gradient": "from-sky-900 via-blue-950 to-black",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-fil-02",
+      "slug": "mouth-tips",
+      "categoryId": "filters",
+      "brandId": "premium",
+      "name": "Mouth Tips Pack",
+      "nameHe": "ראשיות חד פעמי",
+      "descriptionHe": "100 ראשיות individually wrapped.",
+      "price": 15,
+      "salePrice": null,
+      "imageUrl": "/products/mock/filters/mouth-tips.jpg",
+      "images": [
+        "/products/mock/filters/mouth-tips.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "100"
+      },
+      "gradient": "from-blue-900 to-indigo-950",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-fil-03",
+      "slug": "charcoal-filters-pack",
+      "categoryId": "filters",
+      "brandId": "premium",
+      "name": "Charcoal Filters",
+      "nameHe": "פילטרים פחמיים",
+      "descriptionHe": "10 פילטרים activated charcoal.",
+      "price": 18,
+      "salePrice": null,
+      "imageUrl": "/products/mock/filters/charcoal-filters-pack.jpg",
+      "images": [
+        "/products/mock/filters/charcoal-filters-pack.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "כמות": "10"
+      },
+      "gradient": "from-gray-800 via-zinc-900 to-black",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-fil-04",
+      "slug": "mesh-screen-roll",
+      "categoryId": "filters",
+      "brandId": "premium",
+      "name": "Mesh Screen Roll",
+      "nameHe": "גליל רשת Stainless",
+      "descriptionHe": "רשת נירוסטה לנרגילה.",
+      "price": 12,
+      "salePrice": null,
+      "imageUrl": "/products/mock/filters/mesh-screen-roll.jpg",
+      "images": [
+        "/products/mock/filters/mesh-screen-roll.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "אורך": "1m"
+      },
+      "gradient": "from-slate-600 to-slate-900",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-pip-01",
+      "slug": "glass-pipe",
+      "categoryId": "pipes",
+      "brandId": "premium",
+      "name": "Glass Hand Pipe",
+      "nameHe": "מקטרת זכוכית",
+      "descriptionHe": "מקטרת borosilicate.",
+      "price": 120,
+      "salePrice": null,
+      "imageUrl": "/products/mock/pipes/glass-pipe.jpg",
+      "images": [
+        "/products/mock/pipes/glass-pipe.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "אורך": "12cm"
+      },
+      "gradient": "from-violet-800 via-purple-950 to-black",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-pip-02",
+      "slug": "spoon-pipe-spiral",
+      "categoryId": "pipes",
+      "brandId": "premium",
+      "name": "Spoon Pipe Spiral",
+      "nameHe": "Spoon Pipe — Spiral",
+      "descriptionHe": "Spoon pipe עם עיצוב spiral.",
+      "price": 95,
+      "salePrice": null,
+      "imageUrl": "/products/mock/pipes/spoon-pipe-spiral.jpg",
+      "images": [
+        "/products/mock/pipes/spoon-pipe-spiral.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "אורך": "10cm"
+      },
+      "gradient": "from-indigo-800 via-violet-950 to-black",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-pip-03",
+      "slug": "sherlock-glass-pipe",
+      "categoryId": "pipes",
+      "brandId": "premium",
+      "name": "Sherlock Glass Pipe",
+      "nameHe": "Sherlock Glass Pipe",
+      "descriptionHe": "Sherlock style borosilicate.",
+      "price": 135,
+      "salePrice": null,
+      "imageUrl": "/products/mock/pipes/sherlock-glass-pipe.jpg",
+      "images": [
+        "/products/mock/pipes/sherlock-glass-pipe.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "אורך": "14cm"
+      },
+      "gradient": "from-purple-800 via-fuchsia-950 to-black",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-pip-04",
+      "slug": "steamroller-clear",
+      "categoryId": "pipes",
+      "brandId": "premium",
+      "name": "Steamroller Clear",
+      "nameHe": "Steamroller — Clear",
+      "descriptionHe": "Steamroller זכוכית שקופה.",
+      "price": 110,
+      "salePrice": null,
+      "imageUrl": "/products/mock/pipes/steamroller-clear.jpg",
+      "images": [
+        "/products/mock/pipes/steamroller-clear.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "אורך": "15cm"
+      },
+      "gradient": "from-cyan-800 via-teal-950 to-black",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-bng-01",
+      "slug": "beaker-bong-30",
+      "categoryId": "bongs",
+      "brandId": "premium",
+      "name": "Beaker Bong 30cm",
+      "nameHe": "Beaker Bong 30cm",
+      "descriptionHe": "זכוכית 5mm beaker.",
+      "price": 299,
+      "salePrice": null,
+      "imageUrl": "/products/mock/bongs/beaker-bong-30.jpg",
+      "images": [
+        "/products/mock/bongs/beaker-bong-30.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "גובה": "30cm"
+      },
+      "gradient": "from-teal-800 via-cyan-950 to-black",
+      "sortOrder": 1,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-bng-02",
+      "slug": "straight-tube-bong",
+      "categoryId": "bongs",
+      "brandId": "premium",
+      "name": "Straight Tube 40cm",
+      "nameHe": "Straight Tube 40cm",
+      "descriptionHe": "Bong straight tube.",
+      "price": 349,
+      "salePrice": null,
+      "imageUrl": "/products/mock/bongs/straight-tube-bong.jpg",
+      "images": [
+        "/products/mock/bongs/straight-tube-bong.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "גובה": "40cm"
+      },
+      "gradient": "from-cyan-900 to-blue-950",
+      "sortOrder": 2,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-bng-03",
+      "slug": "perc-bong-25",
+      "categoryId": "bongs",
+      "brandId": "premium",
+      "name": "Perc Bong 25cm",
+      "nameHe": "Perc Bong 25cm",
+      "descriptionHe": "Honeycomb perc 25cm.",
+      "price": 279,
+      "salePrice": 249,
+      "imageUrl": "/products/mock/bongs/perc-bong-25.jpg",
+      "images": [
+        "/products/mock/bongs/perc-bong-25.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": true,
+      "featured": false,
+      "specs": {
+        "גובה": "25cm",
+        "Perc": "Honeycomb"
+      },
+      "gradient": "from-blue-800 via-indigo-950 to-black",
+      "sortOrder": 3,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "p-bng-04",
+      "slug": "mini-bong-18",
+      "categoryId": "bongs",
+      "brandId": "premium",
+      "name": "Mini Bong 18cm",
+      "nameHe": "Mini Bong 18cm",
+      "descriptionHe": "Mini bong קומפקטי.",
+      "price": 189,
+      "salePrice": null,
+      "imageUrl": "/products/mock/bongs/mini-bong-18.jpg",
+      "images": [
+        "/products/mock/bongs/mini-bong-18.jpg"
+      ],
+      "flavor": null,
+      "strength": null,
+      "inStock": true,
+      "stockQty": 50,
+      "onSale": false,
+      "featured": false,
+      "specs": {
+        "גובה": "18cm"
+      },
+      "gradient": "from-emerald-800 via-teal-950 to-black",
+      "sortOrder": 4,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ],
+  "content": {
+    "id": "site-main",
+    "heroTagline": "PREMIUM SMOKE BOUTIQUE",
+    "heroCta": "לקנייה עכשיו",
+    "promoTitle": "משלוח חינם",
+    "promoSubtitle": "בהזמנות מעל ₪200",
+    "freeShippingThreshold": 200,
+    "contactPhone": "050-0000000",
+    "contactWhatsapp": "972500000000",
+    "contactEmail": "hello@tzipypuff.co.il",
+    "contactAddress": "תל אביב, ישראל",
+    "aboutText": "ציפי Puff — חנות פרימיום לעישון עם מוצרים מקוריים, שירות VIP ומשלוח מהיר.",
+    "footerText": "© 2026 ציפי Puff — Premium Smoke Boutique",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+}
