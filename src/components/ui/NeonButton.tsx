@@ -1,14 +1,15 @@
 "use client";
 
 import { motion, type HTMLMotionProps } from "framer-motion";
-import { type ReactNode } from "react";
+import { type MouseEventHandler, type ReactNode } from "react";
 
 type Variant = "pink" | "blue" | "ghost";
 
-interface NeonButtonProps extends Omit<HTMLMotionProps<"button">, "children"> {
+interface NeonButtonProps extends Omit<HTMLMotionProps<"button">, "children" | "onClick"> {
   children: ReactNode;
   variant?: Variant;
   href?: string;
+  onClick?: MouseEventHandler<HTMLElement>;
 }
 
 const variants: Record<Variant, string> = {
