@@ -174,10 +174,25 @@ export function generateId(): string {
 }
 
 export function slugify(text: string): string {
-  return text
+  const slug = text
+    .trim()
     .toLowerCase()
-    .replace(/[^\w\s-]/g, "")
+    .replace(/[^\p{L}\p{N}\s-]/gu, "")
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-")
+    .replace(/^-+|-+$/g, "")
     .slice(0, 60);
+  return slug;
+}
+
+export function uniqueProductSlug(nameHe: string, name: string, existingSlugs: Set<string>): string {
+  let base = slugify(nameHe) || slugify(name);
+  if (!base) base = `product-${Date.now().toString(36).slice(-8)}`;
+  let slug = base;
+  let n = 2;
+  while (existingSlugs.has(slug)) {
+    slug = `${base}-${n}`;
+    n++;
+  }
+  return slug.slice(0, 60);
 }

@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { promises as fs } from "fs";
 import path from "path";
 import { requireAdmin } from "@/lib/admin/auth";
+import { isSupabaseStorageEnabled } from "@/lib/supabase/env";
+import { uploadProductImage } from "@/lib/supabase/storage";
 
 const MAX_SIZE = 5 * 1024 * 1024;
 const ALLOWED = ["image/jpeg", "image/png", "image/webp", "image/svg+xml"];
@@ -28,10 +30,20 @@ export async function POST(request: Request) {
 
   const ext = file.name.split(".").pop()?.toLowerCase() ?? "jpg";
   const safeName = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
+  const buffer = Buffer.from(await file.arrayBuffer());
+
+  if (isSupabaseStorageEnabled()) {
+    try {
+      const url = await uploadProductImage(buffer, safeName, file.type);
+      return NextResponse.json({ url });
+    } catch (err) {
+      console.error("Supabase upload failed:", err);
+      return NextResponse.json({ error: "Upload failed" }, { status: 500 });
+    }
+  }
+
   const uploadDir = path.join(process.cwd(), "public", "uploads");
   await fs.mkdir(uploadDir, { recursive: true });
-
-  const buffer = Buffer.from(await file.arrayBuffer());
   await fs.writeFile(path.join(uploadDir, safeName), buffer);
 
   return NextResponse.json({ url: `/uploads/${safeName}` });

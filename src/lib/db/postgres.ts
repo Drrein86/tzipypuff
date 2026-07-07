@@ -1,10 +1,19 @@
 import { getSql } from "./sql";
+import { ensureSupabasePoolerConfig } from "./discover-pooler";
 import { buildMockStore } from "@/lib/mock";
 import { MOCK_DATA_VERSION } from "./schema";
 import type { Category, Product, SiteContent, StoreData } from "@/lib/data/types";
 import type { Order } from "@/lib/data/order-types";
 
 let readyPromise: Promise<void> | null = null;
+
+function rowsOf<T>(rows: unknown): T[] {
+  return rows as T[];
+}
+
+function rowOf<T>(row: unknown): T {
+  return row as T;
+}
 
 export function ensureDbReady(): Promise<void> {
   if (!readyPromise) {
@@ -14,6 +23,7 @@ export function ensureDbReady(): Promise<void> {
 }
 
 async function migrateAndSeed(): Promise<void> {
+  await ensureSupabasePoolerConfig();
   const sql = getSql();
 
   await sql`
@@ -352,16 +362,16 @@ export async function pgReadStore(): Promise<StoreData> {
   const metaRows = await sql`SELECT value FROM store_meta WHERE key = 'updated_at' LIMIT 1`;
 
   const content = contentRows[0]
-    ? rowToContent(contentRows[0] as ContentRow)
+    ? rowToContent(rowOf<ContentRow>(contentRows[0]))
     : buildMockStore().content;
 
   return {
     mockVersion: MOCK_DATA_VERSION,
-    products: (productRows as ProductRow[]).map(rowToProduct),
-    categories: (categoryRows as { id: string; label: string; color: Category["color"]; sort_order: number }[]).map(
-      (c) => ({ id: c.id, label: c.label, color: c.color, order: c.sort_order })
-    ),
-    brands: (brandRows as { name: string }[]).map((b) => b.name),
+    products: rowsOf<ProductRow>(productRows).map(rowToProduct),
+    categories: rowsOf<{ id: string; label: string; color: Category["color"]; sort_order: number }>(
+      categoryRows
+    ).map((c) => ({ id: c.id, label: c.label, color: c.color, order: c.sort_order })),
+    brands: rowsOf<{ name: string }>(brandRows).map((b) => b.name),
     content,
     updatedAt: metaRows[0]?.value ?? new Date().toISOString(),
   };
@@ -485,7 +495,7 @@ export async function pgGetOrdersByPhone(phone: string): Promise<Order[]> {
   const sql = getSql();
   const normalized = phone.replace(/\D/g, "");
   const rows = await sql`SELECT * FROM orders ORDER BY created_at DESC`;
-  return (rows as OrderRow[])
+  return rowsOf<OrderRow>(rows)
     .map(rowToOrder)
     .filter((o) => o.customer.phone.replace(/\D/g, "") === normalized);
 }
@@ -495,7 +505,7 @@ export async function pgGetOrdersByEmail(email: string): Promise<Order[]> {
   const sql = getSql();
   const normalized = email.trim().toLowerCase();
   const rows = await sql`SELECT * FROM orders ORDER BY created_at DESC`;
-  return (rows as OrderRow[])
+  return rowsOf<OrderRow>(rows)
     .map(rowToOrder)
     .filter((o) => o.customer.email.trim().toLowerCase() === normalized);
 }
@@ -504,14 +514,14 @@ export async function pgGetAllOrders(): Promise<Order[]> {
   await ensureDbReady();
   const sql = getSql();
   const rows = await sql`SELECT * FROM orders ORDER BY created_at DESC`;
-  return (rows as OrderRow[]).map(rowToOrder);
+  return rowsOf<OrderRow>(rows).map(rowToOrder);
 }
 
 export async function pgGetOrderById(id: string): Promise<Order | undefined> {
   await ensureDbReady();
   const sql = getSql();
   const rows = await sql`SELECT * FROM orders WHERE id = ${id} LIMIT 1`;
-  return rows[0] ? rowToOrder(rows[0] as OrderRow) : undefined;
+  return rows[0] ? rowToOrder(rowOf<OrderRow>(rows[0])) : undefined;
 }
 
 export async function pgUpdateOrderStatus(
@@ -523,7 +533,7 @@ export async function pgUpdateOrderStatus(
   const rows = await sql`
     UPDATE orders SET status = ${status} WHERE id = ${id} RETURNING *
   `;
-  return rows[0] ? rowToOrder(rows[0] as OrderRow) : undefined;
+  return rows[0] ? rowToOrder(rowOf<OrderRow>(rows[0])) : undefined;
 }
 
 export async function pgSubscribeEmail(email: string): Promise<boolean> {

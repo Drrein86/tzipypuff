@@ -46,6 +46,7 @@ export function AdminProductsManager() {
   const [saving, setSaving] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [search, setSearch] = useState("");
+  const [error, setError] = useState("");
 
   const load = async () => {
     setLoading(true);
@@ -89,6 +90,7 @@ export function AdminProductsManager() {
   const save = async () => {
     if (!form) return;
     setSaving(true);
+    setError("");
     const payload = { ...form, specs: textToSpecs(specsText) };
     const method = form.id && products.some((p) => p.id === form.id) ? "PUT" : "POST";
     const res = await fetch("/api/admin/products", {
@@ -100,6 +102,9 @@ export function AdminProductsManager() {
     if (res.ok) {
       setForm(null);
       await load();
+    } else {
+      const data = (await res.json().catch(() => ({}))) as { error?: string };
+      setError(data.error ?? (res.status === 401 ? "אין הרשאה — התחבר מחדש" : "שמירה נכשלה"));
     }
   };
 
@@ -115,6 +120,7 @@ export function AdminProductsManager() {
 
   const uploadImage = async (file: File) => {
     setUploading(true);
+    setError("");
     const fd = new FormData();
     fd.append("file", file);
     const res = await fetch("/api/admin/upload", { method: "POST", body: fd });
@@ -122,6 +128,9 @@ export function AdminProductsManager() {
     if (res.ok) {
       const { url } = await res.json();
       setForm((f) => (f ? { ...f, image: url } : f));
+    } else {
+      const data = (await res.json().catch(() => ({}))) as { error?: string };
+      setError(data.error ?? "העלאת תמונה נכשלה");
     }
   };
 
@@ -365,7 +374,9 @@ export function AdminProductsManager() {
               <textarea rows={4} className={inputCls} value={specsText} onChange={(e) => setSpecsText(e.target.value)} />
             )}
 
-            <div className="mt-6 flex justify-end gap-3">
+            <div className="mt-6 flex flex-col items-end gap-3">
+              {error && <p className="w-full text-center text-sm text-red-400">{error}</p>}
+              <div className="flex justify-end gap-3">
               <button type="button" onClick={() => setForm(null)} className="rounded-lg px-4 py-2 text-sm text-white/50 hover:text-white">
                 ביטול
               </button>
@@ -378,6 +389,7 @@ export function AdminProductsManager() {
                 <Save size={16} />
                 {saving ? "שומר..." : "שמור"}
               </button>
+              </div>
             </div>
           </div>
         </div>
